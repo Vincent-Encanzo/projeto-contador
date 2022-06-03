@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Rajdhani";
+    background-color: #000;
+}
+header{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.container{
+    width: 100%;
+    height: 50vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Number*/
+.current--number{
+    width: 150px;
+    height: 150px;
+    font-size: 140px;
+    transition: 0.3s;
+    text-align: center;
+}
+/*Buttons*/
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #000;
+    border: 1px solid #fff;
+    margin: 0px 50px;
+    cursor: pointer;
+}
+
+/*Effect*/
+.neon--fx{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(145, 17, 230),
+      0 0 82px rgb(145, 17, 230);
+}
+.neon--fx--red{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(221, 19, 19),
+      0 0 82px rgb(221, 19, 19);
+}
+.button--neon--fx{
+    color: #fff;
+    box-shadow:
+      0 0 7px #fff,
+      0 0 10px rgb(145, 17, 230),
+      0 0 21px rgb(145, 17, 230);
+}
